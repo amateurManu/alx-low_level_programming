@@ -13,10 +13,12 @@ int main(void)
 {
 	char word[] = "_putchar";
 
-	char p;
+	int p;
 
 	for (p = 0; p <= 7; p++)
+	{
 		_putchar(word[p]);
-		_putchar('\n');
+	}
+	_putchar('\n');
 	return (0);
 }
