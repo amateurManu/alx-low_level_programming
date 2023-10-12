@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
-#include <string.h>
 #include "main.h"
 
 /**
@@ -9,16 +7,25 @@
  * Return: Always 0 (Success)
  */
 
+void print_string(void)
+{
+	char str[] = "_putchar\n";
+	int a = 0;
+
+	while (str[a])
+	{
+		_putchar(str[a]);
+		a++;
+	}
+}
+
+/**
+ * main - main function
+ * Return: 0 on success
+ */
+
 int main(void)
 {
-	char word[] = "_putchar";
-
-	int p;
-
-	for (p = 0; p <= 7; p++)
-	{
-		_putchar(word[p]);
-	}
-	_putchar('\n');
+	print_string();
 	return (0);
 }
