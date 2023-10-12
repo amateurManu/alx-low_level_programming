@@ -2,9 +2,8 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * print_string - prints the string "_putchar" followed by a new line
+ * Return: void
  */
 
 void print_string(void)
