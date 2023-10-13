@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_line - prints a line of size n
- * @n: input that determines length of line
+ * print_line - Function that prints a straight line on the terminal
+ * @n: How many times _ should be printed
  * Return: Nothing
  */
 
