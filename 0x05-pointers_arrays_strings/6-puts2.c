@@ -10,10 +10,13 @@ void puts2(char *str)
 {
 	int len = 0;
 
-	while (*str)
+	while (len >= 0)
 	{
-		_putchar('\n');
-		break;
+		if (str[len] == '\0') /* terminate at the end of the string */
+		{
+			_putchar('\n');
+			break;
+		}
 
 		if (len % 2 == 0)
 			_putchar(str[len]);
