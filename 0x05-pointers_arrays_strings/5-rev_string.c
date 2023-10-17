@@ -8,17 +8,25 @@
 
 void rev_string(char *s)
 {
-	int len = 0, i;
+	int len = 0, a, b;
+
+	char ch, *str;
 
 	while (len >= 0)
 	{
-		if (s[len] == '\0')
+		if (s[len] != '\0')
 			break;
-		len++;
+		len++; /* word count */
 	}
+	str = s;
 
-	for (i = len; i >= 0; i--)
+	for (a = 0; a < len; a++)
 	{
-		_putchar(s[i] - *s);
+		for (b = a + 1; b > 0; b--)
+		{
+			ch = *(str + b);
+			*(str + b) = *(str + (b - 1));
+			*(str + (b - 1)) = ch;
+		}
 	}
 }
