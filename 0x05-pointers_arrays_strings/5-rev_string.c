@@ -14,13 +14,13 @@ void rev_string(char *s)
 
 	while (len >= 0)
 	{
-		if (s[len] != '\0')
+		if (s[len] == '\0')
 			break;
 		len++; /* word count */
 	}
 	str = s;
 
-	for (a = 0; a < len; a++)
+	for (a = 0; a < (len - 1); a++)
 	{
 		for (b = a + 1; b > 0; b--)
 		{
