@@ -12,7 +12,11 @@ void print_rev(char *s)
 
 	char *start, *end, temp;
 
-	len = _strlen(s);
+	while (*s != '\0')
+	{
+		len++;
+		s++;
+	}
 
 	start = s;
 
