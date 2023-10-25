@@ -27,20 +27,3 @@ unsigned int _strspn(char *s, char *accept)
 	}
 	return (a);
 }
-
-/**
- * main - tests the _strspn function
- *
- * Return: Always 0 (Success)
- */
-
-int main(void)
-{
-	char *s = "hello, world";
-	char *f = "hello";
-	unsigned int n;
-
-	n = _strspn(s, f);
-	printf("%u\n", n);
-	return (0);
-}
