@@ -1,0 +1,1 @@
+This directory covers concepts on dynamic memory allocation in C learnt at ALX. The files contain the tasks that can be carried out using malloc and free functions. The commit messages to the files give a brief description of what code in each file does.
