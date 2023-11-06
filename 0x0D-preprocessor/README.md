@@ -1,0 +1,1 @@
+This directory covers concepts on the preprocessing stage just before the compilation process of the code. Definition and usage of macros and preprocessing directives are some of the concepts learnt. Commit messages give a brief description of what the code in the files achieve
