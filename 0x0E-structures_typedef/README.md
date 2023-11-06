@@ -1,0 +1,1 @@
+The directory covers concepts on defining and using structures - declaring different varibales under an object(properties) - and typedef - introducing synonyms to data types. Commit messages give a brief description of what the code in the file does
