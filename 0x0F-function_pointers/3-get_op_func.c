@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "3-main.h"
+#include "3-calc.h"
 
 /**
  * get_op_func - selects correct function to perform operation
@@ -30,4 +30,4 @@ int (*get_op_func(char *s))(int, int)
 	}
 
 	return (ops[i / 2].f);
-}	
+}

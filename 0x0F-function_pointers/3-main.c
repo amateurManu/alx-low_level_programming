@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "function_pointers"
+#include "3-calc.h"
 
 /**
  * main - Entry point
@@ -35,4 +35,4 @@ int main(int argc, char *argv[])
 
 	printf("%d\n", operator(atoi(argv[1]), atoi(argv[3])));
 	return (0);
-}	
+}
