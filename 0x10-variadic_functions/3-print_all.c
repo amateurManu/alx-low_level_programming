@@ -7,7 +7,7 @@
  * Return: no value
  */
 
-void print_all(const char * const format)
+void print_all(const char * const format, ...)
 {
 	unsigned int a = 0, b, c = 0;
 	char *s;
