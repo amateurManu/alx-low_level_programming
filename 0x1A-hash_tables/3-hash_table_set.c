@@ -56,7 +56,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 	k_pos = key_index((unsigned char *)key, ht->size);
 
-	if (add_n_hash(&(ht->array[k_index]). key, value) == NULL)
+	if (add_n_hash(&(ht->array[k_pos]), key, value) == NULL)
 		return (0);
 
 	return (1);
