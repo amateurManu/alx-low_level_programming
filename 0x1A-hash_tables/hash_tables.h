@@ -39,5 +39,6 @@ unsigned long int hash_djb2(const unsigned char *str);
 unsigned long int key_index(const unsigned char *key, unsigned long int size);
 hash_node_t *add_n_hash(hash_node_t **, const char *, const char *);
 int hash_table_set(hash_table_t *ht, const char *key, const char *value);
-/* char *hash_table_get(const hash_table_t *ht, const char *key); */
+char *hash_table_get(const hash_table_t *ht, const char *key);
+
 #endif /* HASH_TABLES_H */
